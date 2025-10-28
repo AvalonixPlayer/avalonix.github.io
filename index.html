@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalonix 🎵 - Кросс-платформенный плеер плейлистов</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fas fa-music"></i> Avalonix</h1>
+                <p>Простой, удобный, кроссплатформенный плеер плейлистов</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Ваша музыка - ваши правила</h2>
+                    <p>Наслаждайтесь своей музыкой без ограничений на любой платформе</p>
+                    <div class="badges">
+                        <span class="badge"><i class="fas fa-wrench"></i> В разработке</span>
+                        <span class="badge"><i class="fas fa-desktop"></i> Кроссплатформенный</span>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="screenshot-placeholder">
+                        <i class="fas fa-headphones"></i>
+                        <p>Скриншот появится здесь</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2><i class="fas fa-star"></i> Особенности</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Нативный</h3>
+                    <p>Быстрая и отзывчивая работа на всех платформах</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <h3>Удобный интерфейс</h3>
+                    <p>Интуитивно понятный дизайн для комфортного использования</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-play-circle"></i>
+                    </div>
+                    <h3>Поддержка плейлистов</h3>
+                    <p>Создавайте и управляйте своими музыкальными коллекциями</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h3>Метаданные</h3>
+                    <p>Автоматическое чтение и отображение информации о треках</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="installation">
+        <div class="container">
+            <h2><i class="fas fa-download"></i> Установка</h2>
+            <div class="installation-content">
+                <div class="info-box">
+                    <i class="fas fa-clock"></i>
+                    <h3>Скоро будет доступно</h3>
+                    <p>Мы активно работаем над первой версией Avalonix</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="libraries">
+        <div class="container">
+            <h2><i class="fas fa-book"></i> Используемые библиотеки</h2>
+            <div class="libraries-grid">
+                <div class="library-card">
+                    <h3>AvaloniaUI</h3>
+                    <p>Для пользовательского интерфейса 🖥️</p>
+                </div>
+                <div class="library-card">
+                    <h3>NeoSimpleLogger</h3>
+                    <p>Для ведения логов 📝</p>
+                </div>
+                <div class="library-card">
+                    <h3>taglib-sharp</h3>
+                    <p>Для чтения метаданных аудиофайлов 🏷️</p>
+                </div>
+                <div class="library-card">
+                    <h3>bass.net</h3>
+                    <p>Для воспроизведения аудио 🔊</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="developers">
+        <div class="container">
+            <h2><i class="fas fa-code"></i> Для разработчиков</h2>
+            <div class="dev-content">
+                <h3>Зависимости</h3>
+                <p><strong>BASS.dll</strong> требуется для обработки аудио. Скачайте с <a href="https://www.un4seen.com/">un4seen.com</a>:</p>
+                <ul>
+                    <li>Windows x86 - bass.dll</li>
+                    <li>Windows x64 - bass64.dll (переименуйте в bass.dll)</li>
+                    <li>Linux - libbass.so</li>
+                    <li>macOS - libbass.dylib</li>
+                </ul>
+                <p class="note">Требуется ручное размещение - библиотека должна быть скопирована в папку сборки вашего приложения.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contributing">
+        <div class="container">
+            <h2><i class="fas fa-hands-helping"></i> Участие в разработке</h2>
+            <p class="contributing-intro">Ваш вклад очень важен для нас. Вот как вы можете помочь проекту:</p>
+            <div class="contributing-options">
+                <div class="contrib-option">
+                    <i class="fas fa-bug"></i>
+                    <h3>Сообщите об ошибках</h3>
+                    <p>Укажите найденные проблемы</p>
+                    <a href="https://github.com/Nokskiy/Avalonix/issues" class="btn">Перейти к Issues</a>
+                </div>
+                <div class="contrib-option">
+                    <i class="fas fa-code-branch"></i>
+                    <h3>Создайте форк</h3>
+                    <p>Сделайте свою версию проекта</p>
+                    <a href="https://github.com/Nokskiy/Avalonix/forks" class="btn">Создать форк</a>
+                </div>
+                <div class="contrib-option">
+                    <i class="fas fa-pull-request"></i>
+                    <h3>Сделайте pull request</h3>
+                    <p>Предложите свои улучшения</p>
+                    <a href="https://github.com/Nokskiy/Avalonix/pulls" class="btn">Сделать PR</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Лицензия</h3>
+                    <p><a href="LICENSE">LGPL-3.0 license</a> ⚖️</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Авторы</h3>
+                    <ul>
+                        <li><a href="https://github.com/ruzen42">Ruzen42</a> 👨‍💻</li>
+                        <li><a href="https://github.com/Nokskiy">Nokskiy</a> 👨‍💻</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Контрибьюторы</h3>
+                    <p><a href="https://github.com/Nokskiy/Avalonix/graphs/contributors">Список контрибьюторов</a> 🌟</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Avalonix.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
