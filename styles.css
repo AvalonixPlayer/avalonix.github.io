@@ -1,0 +1,89 @@
+:root {
+    --dark-green: #0a2f1a;
+    --medium-green: #1a4d2e;
+    --light-green: #2d7a4d;
+    --accent-green: #3cb371;
+    --text-light: #e8f5e9;
+    --text-muted: #a5d6a7;
+    --text-sellected: #700aac;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--dark-green);
+    color: var(--text-light);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.head {
+    font-size: xx-large;
+    padding: 30px 0;
+    background: linear-gradient(to right, var(--dark-green), var(--light-green));
+}
+
+.header-content {
+    font-size: xxx-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content .avalonix-name {
+    text-align: left;
+    font-size: x-large;
+}
+
+.header-content nav {
+    text-align: right;
+    font-size: x-large;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: var(--text-sellected);
+}
+
+.about {
+    padding: 100px 0;
+    background: linear-gradient(to right, var(--medium-green), var(--accent-green));
+}
+
+.about .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.about .text-content {
+    flex: 1;
+}
+
+.about .hero-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.about .hero-image img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.1);
+}
